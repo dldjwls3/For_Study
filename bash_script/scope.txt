@@ -1,0 +1,5 @@
+script is excuted in one process
+Therefore, as one script call another script, latter script cannot use variables defined in former script.
+So, we can use 'export' command in that case.
+This 'export' command copy variable to created process(to called script).
+This is similar to 'call by value', so you don't have to worry about changing original value.
